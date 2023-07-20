@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DOM_Form_Task</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+<body>  
+<div class="container">
+
+<form id="myform">
+<h3>Form Submission</h3>
+<div class="row">
+<div class="col-md-3">
+<label for="firstname">Firstname</label>
+<input type="text" class="form-control" id="firstname" placeholder="First name">
+</div>
+<div class="col-md-3">
+<label for="lastname">Lastname</label>
+<input type="text" class="form-control" id="lastname" placeholder="Last name">
+</div>
+<div class="col-md-3">
+<label for="gender">Gender</label><br>
+<input type="radio" id="gender" name="gender" value="male" > Male
+<input type="radio" id="gender" name="gender" value="female"> Female
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-3">
+<label for="address1">Address1</label>
+<input type="text" class="form-control" placeholder="address1" id="address1">
+</div>
+<div class="col-md-3">
+<label for="address2">Address2</label>
+<input type="text" class="form-control" id="address2" placeholder="address2">
+</div>
+<div class="col-md-3">
+<label for="pincode">Pincode</label><br>
+<input type="number" name="pincode" id="pincode"> 
+
+</div>
+</div>
+<div class="row">
+<div class="col-md-3">
+<label for="food">Choice of food(must choose 2 out of 5)</label>
+<input type="checkbox" class="checkbox" name="food" value="SouthIndian" id="food"> South Indian<br>
+<input type="checkbox" class="checkbox"name="food" value="NorthIndian" id="food"> North Indian <br>
+<input type="checkbox" class="checkbox"name="food" value="Chinese" id="food"> Chinese <br>
+<input type="checkbox" class="checkbox"name="food" value="Thai" id="food"> Thai <br>
+<input type="checkbox" class="checkbox"name="food" value="Japaneses" id="food"> Japaneses 
+
+</div>
+<div class="col-md-3">
+<label for="state">state</label>
+<input type="text" class="form-control" id="state">
+</div>
+<div class="col-md-3">
+<label for="country">country</label><br>
+<input type="text" class="form-control" id="country"> 
+</div>
+</div>           
+</form>
+</div>
+<script src="https://docs.google.com/document/d/1I8qIE7_ri5Q_1QqkxJ7rdlRmGnWWW7zCa7BXrwAi8hI/edit"></script>
+
+<script src="script.js"></script>
+</body>
+</html>
